@@ -1,18 +1,17 @@
 export default class Stack<T> {
-    public length: number;
+  public length: number;
 
-    
+  constructor() {
 
-    constructor() {
-    }
+  }
 
-    push(item: T): void {
+  push(item: T): void {
 
-}
-    pop(): T | undefined {
+  }
+  pop(): T | undefined {
 
-}
-    peek(): T | undefined {
+  }
+  peek(): T | undefined {
 
-}
+  }
 }
